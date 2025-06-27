@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stock Analysis</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Stock Candlestick Chart & RSI Analysis</h1>
+    <div>
+        {{ candlestick_graph|safe }}
+    </div>
+    <div>
+        {{ rsi_graph|safe }}
+    </div>
+</body>
+</html>
